@@ -16,6 +16,8 @@ public class OpenBrowser {
 		By googleL = By.name("q");
 		WebElement google =driver.findElement(googleL) ;
 		google.click();
+		
+		google.sendKeys("Mahesh");
 	}
 
 }
