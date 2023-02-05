@@ -31,6 +31,16 @@ public class WaitsSelenium {
 		
 	}
 	
+	public static void FluientWait(int sec)
+	{
+		FluentWait<WebDriver> wait = new FluentWait<WebDriver>(driver);
+		
+	
+		wait.pollingEvery(null);
+		
+	}
+	
+	
 	
 	
 }
